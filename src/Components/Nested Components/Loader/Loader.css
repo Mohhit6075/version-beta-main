@@ -1,18 +1,39 @@
-.loader {
-    width: 45px;
-    aspect-ratio: 1;
-    --c: no-repeat linear-gradient(#fc5011 0 0);
-    background: 
-      var(--c) 0%   50%,
-      var(--c) 50%  50%,
-      var(--c) 100% 50%;
-    background-size: 20% 100%;
-    animation: l1 1s infinite linear;
+.semicircle,
+.semicircle div {
+  width: 170px;
+  height: 170px;
+  animation: 6s rotate141 infinite linear;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.semicircle div {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.semicircle:before,
+.semicircle div:before {
+  content: "";
+  width: 100%;
+  height: 50%;
+  display: block;
+  background: radial-gradient(
+    transparent,
+    transparent 65%,
+    #6054aa 65%,
+    #6054aa
+  );
+  background-size: 100% 200%;
+}
+
+@keyframes rotate141 {
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes l1 {
-    0%  {background-size: 20% 100%,20% 100%,20% 100%}
-    33% {background-size: 20% 10% ,20% 100%,20% 100%}
-    50% {background-size: 20% 100%,20% 10% ,20% 100%}
-    66% {background-size: 20% 100%,20% 100%,20% 10% }
-    100%{background-size: 20% 100%,20% 100%,20% 100%}
-  }
+}
