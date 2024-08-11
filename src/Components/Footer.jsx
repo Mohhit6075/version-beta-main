@@ -117,9 +117,9 @@ const Footer = () => {
             <img src="/Images/up.svg" alt="" className="w-10 h-10" />
           </a>
         </div>
-        <div className="text-[#B5B5B6] mt-10">
+        <div className="text-[#B5B5B6] mt-4">
           <div className="bg-[#444] h-[1px] w-full"></div>
-          <div className="mt-4 flex justify-around text-lg font-medium">
+          <div className="mt-4 flex justify-around text-base font-medium">
             <a
               href="https://devfolio.co/code-of-conduct"
               target="blank"
@@ -137,7 +137,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center  -mt-12 pb-8">
+        <div className="text-center -mt-12 pb-8">
           <div className="bg-[#444] h-[1px] w-full mb-4"></div>
           <div className=" text-[#B5B5B6] text-center font-medium">
             Copyright © 2023 by{" "}

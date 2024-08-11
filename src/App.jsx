@@ -53,7 +53,7 @@ function App() {
             <FAQs />
             <Line />
 
-            <div className="bg-[#111010cf] backdrop-blur-3xl">
+            <div className="bg-[rgb(30,30,32,0.5)] backdrop-blur-3xl">
               <Footer />
             </div>
           </div>
