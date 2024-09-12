@@ -15,7 +15,7 @@ const Footer = () => {
                   <p>Abhinav Rai</p>
                   <a href="tel:+917909474088">+91 7909474088</a>
                 </div>
-                  <div className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium flex flex-col sm:flex-row gap-1 md:gap-12 lg: xl:gap-24 mt-2 transform-colors duration-200">
+                  <div className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium flex flex-col sm:flex-row gap-1 md:gap-12 lg:gap-1 xl:gap-12 mt-2 transform-colors duration-200">
                   <p>Vanshika Agarwal</p>
                   <a href="tel:+919828534432">+91 9828534432</a>
                 </div>
