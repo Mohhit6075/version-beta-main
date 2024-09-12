@@ -55,8 +55,8 @@ export default function DrawerBasic() {
               }}
             />
           </div>
-          <div className="w-40 mx-auto mt-10">
-            <img src="/Images/MANIT.png" alt="" loading="lazy"/>
+          <div className="w-full flex flex-col justify-center items-center mx-auto mt-10">
+            <img src="/Images/Logo.svg" alt="" loading="lazy"/>
           </div>
           <List>
             <div className="flex flex-col items-center font-medium text-[#6054aa] mt-10 text-xl w-full font-['Ubuntu',sans-serif]">
