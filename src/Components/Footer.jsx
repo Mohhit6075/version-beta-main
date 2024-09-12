@@ -12,12 +12,12 @@ const Footer = () => {
               <img src="/Images/phone.svg" alt="" className="w-10 h-10 scale-90" />
               <div className="">
                 <div className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium flex flex-col sm:flex-row gap-1 md:gap-6 lg:gap-6 xl:gap-12 transform-colors duration-200">
-                  <p>Akshat Maheshwari</p>
-                  <a href="tel:+917440411306">+91 7440411306</a>
+                  <p>Abhinav Rai</p>
+                  <a href="tel:+917909474088">+91 7909474088</a>
                 </div>
                   <div className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium flex flex-col sm:flex-row gap-1 md:gap-12 lg: xl:gap-24 mt-2 transform-colors duration-200">
-                  <p>Suhaani Batra</p>
-                  <a href="tel:+916263302087">+91 6263302087</a>
+                  <p>Vanshika Agarwal</p>
+                  <a href="tel:+919828534432">+91 9828534432</a>
                 </div>
               </div>
             </div>
