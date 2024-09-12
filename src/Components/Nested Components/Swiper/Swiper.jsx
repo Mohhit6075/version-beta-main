@@ -30,13 +30,10 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/Images/img1.jpg" alt="" loading="lazy"/>
+          <img src="/Images/img1.jpeg" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
           <img src="/Images/img2.jpeg" alt="" loading="lazy"/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/Images/img3.jpeg" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
           <img src="/Images/img4.jpeg" alt="" loading="lazy"/>
@@ -52,6 +49,12 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="/Images/img8.jpeg" alt="" loading="lazy"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Images/img9.jpeg" alt="" loading="lazy"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/Images/img10.jpeg" alt="" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
     </>
