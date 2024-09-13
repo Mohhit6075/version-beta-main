@@ -93,6 +93,22 @@ const Sponsors = () => {
               className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
+          <a href="https://www.swiggy.com/" target="blank">
+            <img
+              src="/Images/Swiggy.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://amul.com/index.php" target="blank">
+            <img
+              src="/Images/Amul.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
