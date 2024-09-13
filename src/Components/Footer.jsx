@@ -23,10 +23,10 @@ const Footer = () => {
             </div>
             <div className="flex mt-10 gap-10 items-center">
               <img src="/Images/location.svg" alt="" className="w-10 h-10 scale-90" />
-              <p className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium transform-colors duration-200">
+              <a href="https://maps.app.goo.gl/ZERHwrJJcutMMMig8" target=" " className="text-[#B5B5B6] hover:text-[#897be2] text-base font-medium transform-colors duration-200">
                 Maulana Azad National Institute <br />
                 of Technology Bhopal, 462003 (M.P.)
-              </p>
+              </a>
             </div>
             <div className="flex mt-10 gap-10 items-center">
               <img src="/Images/mail.svg" alt="" className="w-10 h-10 scale-90" />
