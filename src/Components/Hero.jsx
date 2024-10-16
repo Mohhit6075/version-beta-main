@@ -4,7 +4,7 @@ import { Slide } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <>
-      <div className="w-9/12 mx-auto mt-28">
+      <div className="w-9/12 mx-auto mt-40">
         <Slide cascade damping={0.3} direction="right" triggerOnce>
           <div className="flex flex-col-reverse items-center lg:flex-row xl:flex-row gap-20 -mt-0 md:mt-0 lg:mt-0 xl:mt-0">
             <div className="w-full text-center lg:text-left xl:text-left">
@@ -36,7 +36,7 @@ const Hero = () => {
                     className="w-[1.5rem]"
                   />
                   <p className="text-sm md:text-base lg:text-base xl:text-lg font-medium ">
-                    Oct 5th - Nov 5th 2024
+                    Oct 18th - Nov 10th 2024
                   </p>
                 </div>
                 <div className=" flex items-center gap-3">
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex flex-col gap-6 items-center">
-            <p className="text-[#06FE87] text-[40px] text-center mt-24">
+            <p className="text-[#5344a9] text-[40px] text-center mt-24">
               Register Now for Version Beta 7.0
             </p>
             <Button />
