@@ -36,7 +36,7 @@ const Hero = () => {
                     className="w-[1.5rem]"
                   />
                   <p className="text-sm md:text-base lg:text-base xl:text-lg font-medium ">
-                    Oct 18th - Nov 10th 2024
+                    Nov 8th - Nov 10th 2024
                   </p>
                 </div>
                 <div className=" flex items-center gap-3">
