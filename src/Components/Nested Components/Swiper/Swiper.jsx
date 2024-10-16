@@ -25,7 +25,7 @@ export default function App() {
           clickable: true,
           dynamicBullets: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
