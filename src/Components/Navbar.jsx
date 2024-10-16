@@ -1,9 +1,29 @@
+import { useState, useEffect } from 'react';
 import Drawer from "./Nested Components/Drawer/Drawer";
 
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll',
+        handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <div id="navbar" className="w-full mx-auto flex justify-around items-center text-[#ddd] pt-4">
+      <div id="navbar" className={ isSticky ? 'fixed w-full mx-auto flex justify-between items-center text-[#ddd] pt-4 bg-[#111] z-50 transition-all duration-200 md:justify-around lg:justify-around xl:justify-around' : 'static w-full mx-auto flex justify-around items-center text-[#ddd] pt-4'}>
         <a href="https://www.istemanit.in/" target="blank">
           <img src="/Images/Logo.svg" alt="logo" loading="lazy" />
         </a>
