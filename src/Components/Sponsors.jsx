@@ -110,6 +110,32 @@ const Sponsors = () => {
             />
           </a>
         </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+          <a href="https://codingthinker.com/" target="blank">
+            <img
+              src="/Images/devfolio.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://learningwhiletravelling.com/" target="blank">
+            <img
+              src="/Images/ethindia.svg"
+              alt=""
+              loading="lazy"
+              className="w-44 mt-4 scale-90 md:scale-[80%] lg:scale-95 xl:scale-95 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/Images/polygon.png"
+              alt=""
+              loading="lazy"
+              className="w-36 mt-4 scale-75 lg:scale-95 xl:scale-110 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
+        </Slide>
       </div>
     </div>
   );
