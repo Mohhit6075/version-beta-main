@@ -7,17 +7,35 @@ const Sponsors = () => {
       </h1>
       <div className="grid grid-cols-3 grid-rows-3 gap-4 md:gap-x-6 md:gap-y-6 lg:gap-x-2 lg:gap-y-6 xl:gap-x-2 xl:gap-y-6 place-items-center">
         <Slide cascade damping={0.3} direction="left" triggerOnce>
-          <a href="https://gradvine.com/" target="blank">
+        <a href="https://amul.com/index.php" target="blank">
             <img
-              src="/Images/Gradvine.png"
+              src="/Images/Amul.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://www.swiggy.com/" target="blank">
+            <img
+              src="/Images/Swiggy.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://www.imsindia.com/" target="blank">
+            <img
+              src="/Images/IMS.png"
               alt=""
               loading="lazy"
               className="w-48 hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="https://www.top-one-percent.com/" target="blank">
+        </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+        <a href="https://indigg-dev.netlify.app/" target="blank">
             <img
-              src="/Images/Top One Percent.png"
+              src="/Images/Indigg.png"
               alt=""
               loading="lazy"
               className="w-48 hover:scale-110 transition-transform duration-300"
@@ -31,8 +49,6 @@ const Sponsors = () => {
               className="w-48 hover:scale-110 transition-transform duration-300"
             />
           </a>
-        </Slide>
-        <Slide cascade damping={0.3} direction="left" triggerOnce>
           <a href="https://www.hitbullseye.com/" target="blank">
             <img
               src="/Images/Hitbullseye.png"
@@ -41,9 +57,11 @@ const Sponsors = () => {
               className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="https://indigg-dev.netlify.app/" target="blank">
+        </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+        <a href="https://www.top-one-percent.com/" target="blank">
             <img
-              src="/Images/Indigg.png"
+              src="/Images/Top One Percent.png"
               alt=""
               loading="lazy"
               className="w-48 hover:scale-110 transition-transform duration-300"
@@ -57,14 +75,22 @@ const Sponsors = () => {
               className="w-48 hover:scale-110 transition-transform duration-300"
             />
           </a>
-        </Slide>
-        <Slide cascade damping={0.3} direction="left" triggerOnce>
-          <a href="https://www.imsindia.com/" target="blank">
+        <a href="https://gradvine.com/" target="blank">
             <img
-              src="/Images/IMS.png"
+              src="/Images/Gradvine.png"
               alt=""
               loading="lazy"
               className="w-48 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+        </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+          <a href="https://codingthinker.com/" target="blank">
+            <img
+              src="/Images/Coding Thinker.png"
+              alt=""
+              loading="lazy"
+              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
           <a href="https://learningwhiletravelling.com/" target="blank">
@@ -81,32 +107,6 @@ const Sponsors = () => {
               alt=""
               loading="lazy"
               className="w-36 mt-4 scale-75 lg:scale-95 xl:scale-95 hover:scale-110 transition-transform duration-300"
-            />
-          </a>
-        </Slide>
-        <Slide cascade damping={0.3} direction="left" triggerOnce>
-          <a href="https://codingthinker.com/" target="blank">
-            <img
-              src="/Images/Coding Thinker.png"
-              alt=""
-              loading="lazy"
-              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
-            />
-          </a>
-          <a href="https://www.swiggy.com/" target="blank">
-            <img
-              src="/Images/Swiggy.png"
-              alt=""
-              loading="lazy"
-              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
-            />
-          </a>
-          <a href="https://amul.com/index.php" target="blank">
-            <img
-              src="/Images/Amul.png"
-              alt=""
-              loading="lazy"
-              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
         </Slide>
