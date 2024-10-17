@@ -111,7 +111,7 @@ const Sponsors = () => {
           </a>
         </Slide>
         <Slide cascade damping={0.3} direction="left" triggerOnce>
-          <a href="https://codingthinker.com/" target="blank">
+          <a href="https://devfolio.co/" target="blank">
             <img
               src="/Images/devfolio.png"
               alt=""
@@ -119,7 +119,7 @@ const Sponsors = () => {
               className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="https://learningwhiletravelling.com/" target="blank">
+          <a href="https://ethindia.co/" target="blank">
             <img
               src="/Images/ethindia.svg"
               alt=""
@@ -127,7 +127,7 @@ const Sponsors = () => {
               className="w-44 mt-4 scale-90 md:scale-[80%] lg:scale-95 xl:scale-95 hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="">
+          <a href="https://polygon.technology/" target="blank">
             <img
               src="/Images/polygon.png"
               alt=""
