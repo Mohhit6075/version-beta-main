@@ -1,7 +1,17 @@
-import Button from "./Nested Components/Button/Button";
+import "./Nested Components/Button/Button.css";
 import { Slide } from "react-awesome-reveal";
-
+import {useEffect} from "react";
 const Hero = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
   return (
     <>
       <div className="w-9/12 mx-auto mt-40">
@@ -57,7 +67,11 @@ const Hero = () => {
             <p className="text-[#5344a9] text-[40px] text-center mt-24">
               Register Now for Version Beta 7.0
             </p>
-            <Button />
+            <div 
+	className="apply-button" 
+	data-hackathon-slug="version-beta-5-15a3" 
+	data-button-theme="light"
+></div>
           </div>
         </Slide>
       </div>
