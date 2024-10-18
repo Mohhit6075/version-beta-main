@@ -8,10 +8,21 @@ const Hero = () => {
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
+    const fetchHackathonData = async () => {
+      try {
+        const response = await fetch('https://api.devfolio.co/api/hackathons/version-beta-5-15a3', {
+          mode: 'no-cors',  
+        });
+        console.log(response);  
+      } catch (error) {
+        console.error('Error fetching hackathon data:', error);
+      }
+    };
+    fetchHackathonData();
     return () => {
       document.body.removeChild(script);
-    }
-}, []);
+    };
+  }, []);
   return (
     <>
       <div className="w-9/12 mx-auto mt-40">

@@ -16,7 +16,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
-  }, [6290]);
+  }, [4290]);
 
   return (
     <div>
