@@ -11,12 +11,13 @@ import Line from "./Components/Nested Components/Line/Line";
 import Loader from "./Components/Nested Components/Loader/Loader";
 import "./App.css";
 import { useState } from "react";
+import Particle from "./Components/Particles";
 
 function App() {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
-  }, [6290]);
+  }, [4290]);
 
   return (
     <div>
@@ -25,12 +26,15 @@ function App() {
       ) : (
         <>
           <div className="w-[100%] app">
-            <div className="w-full h-full ">
+            {/* <div className="w-full h-full ">
               <video autoPlay muted loop id="video-background" poster="/Images/bg.png" preload="auto">
                 <source src="/Images/bg9.mp4" type="video/mp4"></source>
               </video>
-            </div>
+
+            </div> */}
             <Navbar />
+
+            <Particle />
 
             <Hero />
             <Line />
