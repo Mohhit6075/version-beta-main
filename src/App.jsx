@@ -26,12 +26,6 @@ function App() {
       ) : (
         <>
           <div className="w-[100%] app">
-            {/* <div className="w-full h-full ">
-              <video autoPlay muted loop id="video-background" poster="/Images/bg.png" preload="auto">
-                <source src="/Images/bg9.mp4" type="video/mp4"></source>
-              </video>
-
-            </div> */}
             <Navbar />
 
             <Particle />
