@@ -1,6 +1,5 @@
-import Button from "./Nested Components/Button/Button";
-import { Slide } from "react-awesome-reveal";
 
+import { Slide } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <>
@@ -36,7 +35,7 @@ const Hero = () => {
                     className="w-[1.5rem]"
                   />
                   <p className="text-sm md:text-base lg:text-base xl:text-lg font-medium ">
-                    Oct 18th - Nov 10th 2024
+                    Nov 8th - Nov 10th 2024
                   </p>
                 </div>
                 <div className=" flex items-center gap-3">
@@ -54,10 +53,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex flex-col gap-6 items-center">
-            <p className="text-[#5344a9] text-[40px] text-center mt-24">
-              Register Now for Version Beta 7.0
+            <p className="text-[#6054aa] text-[40px] text-center mt-24 flex">
+              Apply with <img src="/Images/devfolio.png" className="w-60 scale-75"/>
             </p>
-            <Button />
+            <button className="w-52 h-12 bg-[#3770ff] text-white rounded-sm">Register Here</button>
           </div>
         </Slide>
       </div>
