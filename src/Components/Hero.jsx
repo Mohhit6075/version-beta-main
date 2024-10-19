@@ -75,14 +75,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex flex-col gap-6 items-center">
-            <p className="text-[#5344a9] text-[40px] text-center mt-24">
-              Register Now for Version Beta 7.0
+<p className="text-[#6054aa] text-[40px] text-center mt-24 flex">
+              Apply with <img src="/Images/devfolio.png" className="w-60 scale-75"/>
             </p>
-            <div 
-	className="apply-button" 
-	data-hackathon-slug="version-beta-5-15a3" 
-	data-button-theme="light"
-></div>
+            <button className="w-52 h-12 bg-[#3770ff] text-white rounded-sm">Register Here</button>
           </div>
         </Slide>
       </div>
