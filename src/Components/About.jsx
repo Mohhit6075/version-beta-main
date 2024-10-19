@@ -8,7 +8,7 @@ const About = () => {
       <Zoom cascade damping={0.3} triggerOnce>
         <div className="flex flex-col items-center gap-10 lg:flex-col xl:flex-row">
           <img
-            src="Images/about.jpeg"
+            src="Images/about.webp"
             alt=""
             width="500"
             height="500"
