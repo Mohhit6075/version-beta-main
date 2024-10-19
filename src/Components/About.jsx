@@ -2,7 +2,7 @@ import { Zoom } from "react-awesome-reveal";
 const About = () => {
   return (
     <div id="about" className="w-9/12 mx-auto mt-24 flex flex-col gap-16">
-      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
+      <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300 z-10">
         About
       </h1>
       <Zoom cascade damping={0.3} triggerOnce>
