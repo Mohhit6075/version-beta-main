@@ -30,31 +30,31 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/Images/img1.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img1.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img2.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img2.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img4.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img4.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img5.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img5.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img6.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img6.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img7.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img7.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img8.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img8.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img9.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img9.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img10.jpeg" alt="" loading="lazy"/>
+          <img src="/Images/img10.webp" alt="" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
     </>
