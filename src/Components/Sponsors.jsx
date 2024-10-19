@@ -2,7 +2,7 @@ import { Slide } from "react-awesome-reveal";
 const Sponsors = () => {
   return (
     <div id="sponsors" className="w-8/12 mx-auto mt-24 flex flex-col gap-16">
-      <h1 className="text-[#897be2] mx-auto text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300">
+      <h1 className="text-[#897be2] mx-auto text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300 z-10">
         Sponsors
       </h1>
       <div className="grid grid-cols-3 grid-rows-3 gap-4 md:gap-x-6 md:gap-y-6 lg:gap-x-2 lg:gap-y-6 xl:gap-x-2 xl:gap-y-6 place-items-center">
