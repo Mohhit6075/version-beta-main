@@ -1,28 +1,5 @@
-import "./Nested Components/Button/Button.css";
 import { Slide } from "react-awesome-reveal";
-import {useEffect} from "react";
 const Hero = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    const fetchHackathonData = async () => {
-      try {
-        const response = await fetch('https://api.devfolio.co/api/hackathons/version-beta-5-15a3', {
-          mode: 'no-cors',  
-        });
-        console.log(response);  
-      } catch (error) {
-        console.error('Error fetching hackathon data:', error);
-      }
-    };
-    fetchHackathonData();
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
   return (
     <>
       <div className="w-9/12 mx-auto mt-40">
@@ -75,10 +52,16 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex flex-col gap-6 items-center">
-<p className="text-[#6054aa] text-[40px] text-center mt-24 flex">
-              Apply with <img src="/Images/devfolio.png" className="w-60 scale-75"/>
+            <p className="text-[#6054aa] text-[40px] text-center mt-24 flex">
+              Register Now for Version Beta 7.0
             </p>
-            <button className="w-52 h-12 bg-[#3770ff] text-white rounded-sm">Register Here</button>
+            <a
+              href=""
+              className="w-64 h-12 bg-[#3770ff] text-white rounded-md flex items-center justify-center"
+            >
+              <img src="/Images/devf.png" alt="" className="w-12 h-12" />
+              Apply With Devfolio
+            </a>
           </div>
         </Slide>
       </div>
