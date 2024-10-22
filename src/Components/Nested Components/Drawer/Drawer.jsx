@@ -20,7 +20,7 @@ export default function DrawerBasic() {
 
   return (
     <Box sx={{ display: "flex", marginLeft: "160px" }}>
-      <img src="/Images/menu.svg" alt="" className="w-8 mb-1" onClick={toggleDrawer(true)} />
+      <img src="/Images/menu.svg" alt="" className="w-8 mb-1 z-10" onClick={toggleDrawer(true)} />
       <Drawer
         open={open}
         onClose={toggleDrawer(false)}
