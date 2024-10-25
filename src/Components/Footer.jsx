@@ -128,7 +128,7 @@ const Footer = () => {
               Code of Conduct Devfolio
             </a>
             <a
-              href="/Images/VBrulebook-2023.pdf"
+              href="/Images/VBrulebook-2024.pdf"
               target="blank"
               className="hover:text-[#7661ff] transition-all duration-300"
             >
