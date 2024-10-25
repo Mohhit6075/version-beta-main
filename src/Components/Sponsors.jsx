@@ -136,6 +136,16 @@ const Sponsors = () => {
             />
           </a>
         </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+          <a href="https://stockedge.com/" target="blank">
+            <img
+              src="/Images/stockedge.png"
+              alt=""
+              loading="lazy"
+              className="w-48 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+        </Slide>
       </div>
     </div>
   );
