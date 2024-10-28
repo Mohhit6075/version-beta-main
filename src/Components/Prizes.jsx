@@ -5,38 +5,38 @@ const Prizes = () => {
       <h1 className="text-[#897be2] text-center text-[45px] uppercase font-bold hover:scale-110 transition-transform duration-300 z-10">
         Prizes
       </h1>
-      <div className="mt-10 mx-auto flex flex-col gap-20 md:hidden">
+      <div className="mt-10 mx-auto flex flex-col gap-12 md:hidden">
         <Slide cascade damping={0.3} direction="right" triggerOnce>
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col items-center">
             <img
               src="/Images/gold.png"
               alt=""
               loading="lazy"
-              className="hover:scale-110 transition-transform duration-300"
+              className="scale-50 transition-transform duration-300"
             />
-            <p className="text-[2.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
+            <p className="text-[1.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
               ₹ 15,000
             </p>
           </div>
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col items-center">
             <img
               src="/Images/silver.png"
               alt=""
               loading="lazy"
-              className="hover:scale-110 transition-transform duration-300 ml-4"
+              className="scale-50 transition-transform duration-300 ml-4"
             />
-            <p className="text-[2.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
+            <p className="text-[1.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
               ₹ 10,000
             </p>
           </div>
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col items-center">
             <img
               src="/Images/bronze.png"
               alt=""
               loading="lazy"
-              className="hover:scale-110 transition-transform duration-300 ml-4"
+              className="scale-50 transition-transform duration-300 ml-4"
             />
-            <p className="text-[2.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
+            <p className="text-[1.5rem] text-[#808080] hover:scale-110 transition-transform duration-300">
               ₹ 5,000
             </p>
           </div>
