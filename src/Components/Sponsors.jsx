@@ -145,6 +145,14 @@ const Sponsors = () => {
               className="w-48 hover:scale-110 transition-transform duration-300"
             />
           </a>
+          <a href="https://aptosfoundation.org/" target="blank">
+            <img
+              src="/Images/Aptos.png"
+              alt=""
+              loading="lazy"
+              className="w-48 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
