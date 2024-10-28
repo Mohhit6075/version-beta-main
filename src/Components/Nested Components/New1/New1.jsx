@@ -21,7 +21,7 @@ export const New1 = () => {
                     <h3 className="title text-3xl font-[500] text-[#7661ff] mb-1  max-md:scale-90 max-md:mb-0">
                       Registration
                     </h3>
-                    <p className="description text-[15px] text-left leading-normal font-normal tracking-wide max-md:scale-90">
+                    <p className="description text-[14px] text-left leading-normal font-normal font-[roboto] tracking-wide max-md:scale-90 ">
                       Version Beta is opening its doors for applications
                       starting from August 20th until October 5th.To apply, all
                       you need to do is to click on the “Register Here” Button
@@ -46,7 +46,7 @@ export const New1 = () => {
                     <h3 className="title text-3xl font-[500] text-[#7661ff] mb-1  max-md:scale-90 max-md:mb-0">
                       Ideation
                     </h3>
-                    <p className="description text-[15px] text-left leading-normal font-normal tracking-wide max-md:scale-90">
+                    <p className="description text-[14px] text-left leading-normal font-normal font-[roboto] tracking-wide max-md:scale-90">
                       Dive deep into current tech trends and challenges. Draw
                       inspiration from industry leaders, innovative startups,
                       and emerging technologies. Use brainstorming sessions to
@@ -70,7 +70,7 @@ export const New1 = () => {
                     <h3 className="title text-3xl font-[500] text-[#7661ff] mb-1 max-md:scale-90 max-md:mb-0">
                       Announcement
                     </h3>
-                    <p className="description text-[15px] text-left leading-normal font-normal tracking-wide max-md:scale-90">
+                    <p className="description text-[14px] text-left leading-normal font-normal font-[roboto] tracking-wide max-md:scale-90">
                       After intense brainstorming and collaboration, Best ideas
                       would be selected by judges, Their creativity and
                       problem-solving skills have set the stage for the next
@@ -93,7 +93,7 @@ export const New1 = () => {
                     <h3 className="title text-3xl font-[500] text-[#7661ff] mb-1  max-md:scale-90 max-md:mb-0">
                       Team
                     </h3>
-                    <p className="description text-[15px] text-left leading-normal font-normal tracking-wide max-md:scale-90">
+                    <p className="description text-[14px] text-left leading-normal font-normal font-[roboto] tracking-wide max-md:scale-90">
                       Collaboration is key as students bring together their
                       unique skills and expertise. Enlist your teams and prepare
                       them to tackle the upcoming challenges. Get ready to
@@ -117,7 +117,7 @@ export const New1 = () => {
                     <h3 className="title text-3xl font-[500] text-[#7661ff] mb-1  max-md:scale-90 max-md:mb-0">
                       Hackathon
                     </h3>
-                    <p className="description text-[15px] text-left leading-normal font-normal tracking-wide max-md:scale-90">
+                    <p className="description text-[14px] text-left leading-normal font-normal font-[roboto] tracking-wide max-md:scale-90">
                       Every truly novel concept appears insane at first, so come
                       present yours. The time for brainstorming is past; now is
                       the time to code and present hackathon presentations.{" "}

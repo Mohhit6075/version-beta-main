@@ -15,7 +15,7 @@ const About = () => {
             loading="lazy"
             className="rounded-lg animate-pulse w-full lg:w-full xl:w-[45%] hover:scale-110 transition-transform duration-300"
           />
-          <p className="text-[#ccc] w-full lg:w-full xl:w-[45%] text-lg font-medium">
+          <p className="text-[#ccc] w-full lg:w-full xl:w-[45%] text-lg font-[roboto]">
             Version Beta is the amalgamation of some of the nation&apos;s
             greatest technological minds, with an ideal platform for technology
             enthusiasts to demonstrate their talents and ingenuity. After
