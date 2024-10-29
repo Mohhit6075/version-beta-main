@@ -51,9 +51,6 @@ export default function App() {
           <img src="/Images/img8.webp" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/Images/img9.webp" alt="" loading="lazy"/>
-        </SwiperSlide>
-        <SwiperSlide>
           <img src="/Images/img10.webp" alt="" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
