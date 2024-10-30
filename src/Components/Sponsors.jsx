@@ -153,6 +153,32 @@ const Sponsors = () => {
               className="w-48 hover:scale-110 transition-transform duration-300"
             />
           </a>
+          <a href="https://www.luzo.app/" target="blank">
+            <img
+              src="/Images/luzo1.png"
+              alt=""
+              loading="lazy"
+              className="w-48 scale-105 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
+        </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+          <a href="https://youngskilledindia.com/" target="blank">
+            <img
+              src="/Images/ysi.png"
+              alt=""
+              loading="lazy"
+              className="w-48 scale-125 hover:scale-150 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://gen.xyz/" target="blank">
+            <img
+              src="/Images/.xyz.png"
+              alt=".xyz logo"
+              loading="lazy"
+              className="w-48 scale-75 hover:scale-90 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
