@@ -179,6 +179,24 @@ const Sponsors = () => {
               className="w-48 scale-75 hover:scale-90 transition-transform duration-300"
             />
           </a>
+          <a href="https://www.aceenggacademy.com/" target="blank">
+            <img
+              src="/Images/ace.png"
+              alt="ace logo"
+              loading="lazy"
+              className="w-48 scale-110 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
+        </Slide>
+        <Slide cascade damping={0.3} direction="left" triggerOnce>
+          <a href="https://shotz.in/" target="blank">
+            <img
+              src="/Images/spm.png"
+              alt="shotz logo"
+              loading="lazy"
+              className="w-48 scale-100 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
