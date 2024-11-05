@@ -15,20 +15,20 @@ const Sponsors = () => {
               className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="https://www.swiggy.com/" target="blank">
-            <img
-              src="/Images/Swiggy.png"
-              alt=""
-              loading="lazy"
-              className="w-48 mt-4 hover:scale-110 transition-transform duration-300"
-            />
-          </a>
           <a href="https://www.imsindia.com/" target="blank">
             <img
               src="/Images/IMS.png"
               alt=""
               loading="lazy"
               className="w-48 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <a href="https://the-dopamine-store.mini.store/" target="blank">
+            <img
+              src="/Images/tps.png"
+              alt=""
+              loading="lazy"
+              className="w-48 scale-150 hover:scale-[175%] transition-transform duration-300"
             />
           </a>
         </Slide>
