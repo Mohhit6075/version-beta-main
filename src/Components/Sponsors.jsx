@@ -197,6 +197,14 @@ const Sponsors = () => {
               className="w-48 scale-100 hover:scale-125 transition-transform duration-300"
             />
           </a>
+          <a href="https://0x.day/" target="blank">
+            <img
+              src="/Images/0x.Day.png"
+              alt="ox.day logo"
+              loading="lazy"
+              className="w-48 scale-100 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
