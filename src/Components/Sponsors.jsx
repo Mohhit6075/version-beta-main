@@ -205,6 +205,14 @@ const Sponsors = () => {
               className="w-48 scale-100 hover:scale-125 transition-transform duration-300"
             />
           </a>
+          <a href="https://interviewbuddy.net/" target="blank">
+            <img
+              src="/Images/interviewBuddy.webp"
+              alt="coding ninjas logo" 
+              loading="lazy"
+              className="w-48 scale-100 hover:scale-125 transition-transform duration-300"
+            />
+          </a>
         </Slide>
       </div>
     </div>
